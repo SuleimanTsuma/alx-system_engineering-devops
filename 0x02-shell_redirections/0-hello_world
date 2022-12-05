@@ -1,3 +1,2 @@
 #!/bin/bash
-Hello, World
-My name is Suleiman
+echo > Hello, World
