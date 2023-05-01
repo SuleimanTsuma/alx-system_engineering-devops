@@ -3,7 +3,6 @@
  *
  * Auth: Brennan D Baraban
  */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>
@@ -30,7 +29,6 @@ int infinite_while(void)
  *
  * Return: Always 0.
  */
-
 int main(void)
 {
 	pid_t pid;
@@ -40,7 +38,7 @@ int main(void)
 	while (count < 5)
 	{
 		pid = fork();
-    
+
 		if (pid > 0)
 		{
 			printf("Zombie process created, PID: %d\n", pid);
@@ -52,6 +50,6 @@ int main(void)
 	}
 
 	infinite_while();
-  
+
 	return (EXIT_SUCCESS);
 }
