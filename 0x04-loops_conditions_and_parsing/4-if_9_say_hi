@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# Bash script that displays Best School 10 times, but for the 9th iteration
-# displays Best School and then Hi on a new line.
+#Bash script that displays Best School 10 times, but for the 9th iteration
+#displays Best School and then Hi on a new line.
 
 count=0
 
@@ -17,7 +17,6 @@ do
   fi
 
   echo "Best School"
-
   (( count++ ))
 
 done
